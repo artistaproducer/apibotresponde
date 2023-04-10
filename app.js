@@ -148,7 +148,7 @@ document.querySelector(".ChatMessageFeedbackButtons_feedbackButtonsContainer__0X
     .then(async (screenshotBuffer) => {
       const base64Image = screenshotBuffer.toString('base64');
       var payload = {
-        archivo_name: 'capturay2mate.jpg',
+        archivo_name: 'capturay2mateLeiner.jpg',
         file_mime: 'image/jpeg',
         archivo_base64: base64Image,
       };
@@ -208,7 +208,7 @@ app.get('/refresh', async (req, res) => {
       .then(async (screenshotBuffer) => {
         const base64Image = screenshotBuffer.toString('base64');
         payload = {
-          archivo_name: Date.now() + '.jpg',
+          archivo_name: Date.now() + 'leiner.jpg',
           file_mime: 'image/jpeg',
           archivo_base64: base64Image,
         };
