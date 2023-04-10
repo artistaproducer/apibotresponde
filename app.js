@@ -76,10 +76,10 @@ async function lanzarEiniciar() {
   //await page.setCookie(...cookies)
   await page.setCookie({
     name: 'p-b',
-    value: 'ilpv8MHHgYx0CLEVRzpKqA%3D%3D',
+    value: '1RW5hAiOaA6bXxi7AO66BA%3D%3D',
     domain: 'poe.com',
     path: '/',
-    expires: 1715700708.644034,
+    expires: 1715711849.94349,
     size: 31,
     httpOnly: true,
     secure: true,
