@@ -76,7 +76,7 @@ async function lanzarEiniciar() {
   //await page.setCookie(...cookies)
   await page.setCookie({
     name: 'p-b',
-    value: 'HxyNyJ-LAQcwukNaBHouzA%3D%3D',
+    value: 'trM6u-yIr_qOmn1bIjlcAA%3D%3D',
     domain: 'poe.com',
     path: '/',
     expires: 1715538398.055262,
@@ -249,14 +249,14 @@ app.post('/talk', express.json(), async function (req, res) {
 
   if (refreshingThePoePage) {
     respuesta.noError = false;
-    respuesta.message = 'The page is currently refreshing';
+    respuesta.message = 'La página se está actualizando actualmente.';
     res.json(respuesta);
     return;
   } else {
     //console.log(videoUrl )
     if (responsing) {
       respuesta.noError = false;
-      respuesta.message = 'The chat is currently responsing another request';
+      respuesta.message = 'El chat está respondiendo actualmente a otra solicitud.';
       res.json(respuesta);
       return;
     }
